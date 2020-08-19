@@ -1,0 +1,52 @@
+
+/*Преймущества*/
+
+ .list-benefits {
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .list-item-benefits {
+    width: 270px;
+    height: 251px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  
+  .list-item-benefits-svg {
+    width: 70px;
+    height: 70px;
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-bottom: 25px;
+    padding-right: 100px;
+  
+    background-color: #f5f4fa;
+    border-radius: 4px;
+  
+    margin-bottom: 30px;
+  }
+  
+  .title-benefits {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $title-dark-words-color;
+  
+    margin-bottom: 10px;
+  }
+  
+  .description-benefits {
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $title-gray-words-color;
+  
+    margin: 0px;
+  }
+  

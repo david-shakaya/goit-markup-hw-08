@@ -1,0 +1,36 @@
+
+body {
+    background-color: $title-light-words-color;
+    font-family: $main-font;
+    font-size: 14px;
+    color: $title-dark-words-color;
+  }
+  
+  .header-wrapper .link,
+  .link-logo {
+    text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+  
+ul,
+h1,
+h2,
+h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+  .link {
+    text-decoration: none;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  svg {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .list {
+    list-style: none;
+  }

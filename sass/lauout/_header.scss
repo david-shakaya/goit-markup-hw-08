@@ -1,0 +1,114 @@
+/*Логотип*/
+
+.navigation {
+    display: flex;
+    align-items: center;
+
+    .logo {
+      margin-right: 85px;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+      letter-spacing: 0.03em;
+      color: #000000;
+    }
+  }
+
+  .logo-color {
+    color: $accent-color;
+  }
+  
+  /* Меню*/
+  .menu {
+    display: flex;
+  }
+  
+  .menu-list-item:not(:last-child) {
+    margin-right: 50px;
+  }
+  
+  .menu-link {
+    position: relative;
+  
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $title-dark-words-color;
+  }
+  
+  .menu-link-portfolio::after {
+    content: "";
+    display: block;
+  border-bottom: 4px solid $accent-color;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 28px;
+  
+  position: absolute;
+  }
+  
+  .menu-link-studio::after {
+    content: "";
+    display: block;
+  border-bottom: 4px solid $accent-color;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 28px;
+  
+  position: absolute;
+  }
+  .link:hover,
+  .link:focus {
+    color: $accent-color;
+  }
+  
+  /*Контакты*/
+  
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 81px;
+  }
+  .header-adress {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-adress-mail-svg {
+    width: 16px;
+    height: 11.2px;
+    fill: $title-gray-words-color;
+    margin-right: 10px;
+  }
+  
+  .header-adress-tel-svg {
+    width: 10px;
+    height: 15px;
+    fill: $title-gray-words-color;
+    margin-right: 10px;
+  }
+  
+  .header-adress-list:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .header-adress-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $title-gray-words-color;
+
+    &:hover .header-adress-tel-svg {
+      fill: $accent-color;
+    }
+
+    &:hover .header-adress-mail-svg {
+      fill: $accent-color;
+    }
+  }
+  
