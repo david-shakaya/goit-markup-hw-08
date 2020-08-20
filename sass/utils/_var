@@ -1,6 +1,0 @@
-  $main-font: "Roboto", sans-serif;
-  $secondary-font: "Raleway", sans-serif;
-  $title-dark-words-color: #212121;
-  $title-light-words-color: #ffffff;
-  $title-gray-words-color: #757575;
-  $accent-color: #2196f3;
